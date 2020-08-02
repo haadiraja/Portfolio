@@ -214,10 +214,10 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/profile-banner.jpg);
+      background: url(../img/profile-banner.jpg) fixed;
       background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
+      background-position: center ;
+      /* background-repeat: no-repeat; */
   }
 
   #about h1 {
@@ -684,10 +684,10 @@ a:active {
   font-size: 45px;
 }
 
-#contact .contact-cont p{
+/* #contact .contact-cont p{
   padding-right: 20px;
   font-size: 15px;
-}
+} */
 
 #contact .contact-cont2 address,
 #contact .contact-cont2 address a{
@@ -726,7 +726,7 @@ a:active {
   display: inline-block;
 }
 
-.social-icon-f li i{
+/* .social-icon-f li i{
   height: 35px;
   width:35px;
   line-height: 35px;
@@ -734,7 +734,7 @@ a:active {
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;
-}  
+}   */
 
 @media(max-width: 767px){
     #contact-p2 .con-form input{
