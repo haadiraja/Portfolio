@@ -4,7 +4,7 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96;
+    color: #cfd0d1;
 }
 
 @media (min-width: 992px) {
@@ -23,7 +23,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #cfd0d1;
 }
 
 h1 {
@@ -220,9 +220,9 @@ a:active {
       /* background-repeat: no-repeat; */
   }
 
-  #about h1 {
-    /*font-size: 100%;*/
-  }
+  /* #about h1 {
+    font-size: 100%;
+  } */
 
 /*==================================================
                     EXPERIENCE
@@ -715,7 +715,7 @@ a:active {
 } 
 
 .contact-box-desc h3{
-  color:#555;
+  color: #cfd0d1;
 }
 
 .contact-box-desc h3 i{
