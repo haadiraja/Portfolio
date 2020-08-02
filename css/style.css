@@ -38,10 +38,11 @@ h1 {
 
 h2 {
     font-size: 3.5rem;
+    color: #636363;
 }
 
 a {
-    color: #2196f3;
+    color: #deb887;
 }
 
 a:hover,
@@ -65,7 +66,7 @@ a:active {
   }
 
   .list-social-icons a:hover {
-      color: #2196f3;
+      color: #deb887;
   }
 
   .list-social-icons a .fa-lg {
@@ -77,7 +78,7 @@ a:active {
   }
 
   .list-icons .list-inline-item i:hover {
-      color: #2196f3;
+      color: #deb887;
   }
 
 /*==================================================
@@ -147,26 +148,26 @@ a:active {
 }
 
 .btn-white {
-    border-color: #2196f3;
-    background-color: #2196f3;
+    border-color: #deb887;
+    background-color: #deb887;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: #2196f3;
+    color: #deb887;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: #deb887;
+    color: #deb887;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: #2196f3;
+    background-color: #deb887;
     color: #fff;
     cursor: pointer;
 }
@@ -177,7 +178,7 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #2196f3;
+      background-color: #deb887;
       margin: 0 auto 20px auto;
   }
 
@@ -208,11 +209,11 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #deb887 !important;
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      color: #deb887 !important;
   }
 
 /*==================================================
@@ -247,7 +248,7 @@ a:active {
 ======================================================*/
 
 #portfolio{
-    background: #f0f0f0;
+    background: rgb(219, 219, 219);
     padding:100px 0;
 } 
 
@@ -402,6 +403,7 @@ a:active {
     .portfolio-modal .close-modal{
         display: none;
     }
+    
 }  
 
 /*====================================================
@@ -409,7 +411,7 @@ a:active {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
+    background: url("../img/bg-stats.jpg") fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -432,7 +434,7 @@ a:active {
 }
 
 .skill-item i {
-    color: #2196f3;
+    color: #deb887;
 }
 
 .skill-item h2 {
@@ -674,6 +676,10 @@ a:active {
     #award-box .award-content:after {
         left: -14%;
     }
+    .para{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /*====================================================
@@ -724,7 +730,7 @@ a:active {
 }
 
 .contact-box-desc h3 i{
-  color: #2196f3;
+  color: #deb887;
 }
 
 .social-icon-f li{
@@ -735,7 +741,7 @@ a:active {
   height: 35px;
   width:35px;
   line-height: 35px;
-  border:2px solid #2196f3;
+  border:2px solid #deb887;
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;
