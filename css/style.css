@@ -48,7 +48,9 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #0f72c1;
+    transition: all ease-in-out 0.3s;
+    color: darkslategray;
+    text-decoration: none;
 }
 
 .subheading {
@@ -57,6 +59,8 @@ a:active {
     font-family: 'Saira Extra Condensed', serif;
     font-size: 1.35rem;
 }
+
+
 
 /*==================================================
                   SOCIAL-ICON
@@ -87,6 +91,7 @@ a:active {
   #sideNav .navbar-nav .nav-item .nav-link {
       font-weight: 600;
       text-transform: uppercase;
+      /* color:darkslategray; */
   }
   #sidenav {
     background-color: #f0f0f0;
@@ -401,15 +406,15 @@ a:active {
 ======================================================*/
 
 #skills {
-    background: url("../img/bg-stats.jpg") fixed;
+    background: url("../img/profile-banner.jpg") fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
 }
-
+/* 
 .skill-cover {
     background-color: rgba(31, 31, 31, 0.68); 
-}
+} */
 
 .skill-cover h3{
   font-family: "hind", sans-serif;
