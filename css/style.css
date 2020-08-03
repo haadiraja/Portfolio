@@ -150,7 +150,7 @@ a:active {
     background-color: transparent;
     text-align: center;
     border-width: 1px;
-    border-radius: 0px;
+    border-radius: 50px;
     font-size: 16px;
     padding: 10px 15px;
     font-weight: 400;
@@ -403,6 +403,11 @@ a:active {
     .portfolio-modal .close-modal{
         display: none;
     }
+    .para{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
     
 }  
 
@@ -670,6 +675,11 @@ a:active {
     #award-box .award-content:after {
         left: -14%;
     }
+    .para{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
 }
 /*====================================================
                    CONTACT
