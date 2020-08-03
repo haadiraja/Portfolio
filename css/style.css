@@ -458,11 +458,6 @@ a:active {
                       AWARD
 ======================================================*/
  
-.award{
-    width:25%;
-    height:10px;
-}
-
 #awards {
     background: #f0f0f0;
 }
@@ -471,7 +466,6 @@ a:active {
     overflow: hidden;
     position: relative;
     padding: 60px 0;
-    justify-content: center;
 }
 
 #award-box:before {
@@ -548,7 +542,7 @@ a:active {
 }
 
 #award-box .award:hover .award-icon:before {
-    background: #deb887;
+    background: palevioletred;
 }
 
 #award-box .award-content {
@@ -581,8 +575,8 @@ a:active {
 }
 
 #award-box .award:hover .award-content:before {
-    background: #deb887;
-    border-color: #deb887;
+    background: palevioletred;
+    border-color: palevioletred;
 }
 
 #award-box .award-content:after {
@@ -599,7 +593,7 @@ a:active {
     display: block;
     font-size: 15px;
     font-weight: 600;
-    color: #deb887;
+    color: palevioletred;
     margin: 0 0 8px;
     transition: all 0.3s ease 0s;
 }
@@ -616,7 +610,7 @@ a:active {
 }
 
 #award-box .award:hover .title {
-    color: #deb887;
+    color: palevioletred;
 }
 
 #award-box .description {
@@ -676,12 +670,7 @@ a:active {
     #award-box .award-content:after {
         left: -14%;
     }
-    .para{
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
-
 /*====================================================
                    CONTACT
 ======================================================*/
