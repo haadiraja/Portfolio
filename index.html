@@ -73,11 +73,20 @@ License URL: https://creativecommons.org/licenses/by/4.0/
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
           <div class="my-auto " >
               <!-- <img src="img/logo-s.png" style="height:100px;width:100px;" class="img-fluid mb-3" alt=""> -->
+              
+              
+                
+              
+
+
+
               <h1 class="mb-0 text-center">Haadi
-                <span class="text-primary wow fadeInUp">Muhammad </span>
+                <span class="text-primary ">Muhammad </span>
                 Khan
               </h1>
-              <div class="subheading mb-5 text-center">Full Stack Web Developer
+              <div class="subheading mb-5 text-center "><a href="" class="typewrite" data-period="2000" data-type='[ "Full Stack We Developer", "Search Engine Optimizer"]'>
+                <span class="wrap"></span>
+              </a>
               </div>
               <p class="mb-5 text-center para" >I am a Full Stack Web Developer, with over 3 years of experience. I have a passion for solving problems and find the field of website development extremely rewarding in this sense. As long as I can remember I have always strived to better my understanding of the things around me and tried to grasp knowledge that would enable me to create bigger and better things.</p>
               <ul class="list-inline list-social-icons mb-0 text-center">
@@ -677,6 +686,65 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         });
     </script> 
+    <script>
+      //made by vipul mirajkar thevipulm.appspot.com
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
 </body>
 
 </html>
